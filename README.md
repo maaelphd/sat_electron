@@ -60,10 +60,10 @@ https://www.youtube.com/watch?v=tY8dIdToJjQ
 
 [CC0 1.0 (Public Domain)](LICENSE.md)
 
-## Referencias
-https://groups.google.com/forum/#!topic/nfephp/v1Yskdi74IU
-https://www.youtube.com/watch?v=tY8dIdToJjQ
-https://github.com/felixrieseberg/windows-build-tools
-https://github.com/nodejs/node-gyp
-https://github.com/node-ffi-napi/node-ffi-napi
-https://www.npmjs.com
+**Referencias**
+- https://groups.google.com/forum/#!topic/nfephp/v1Yskdi74IU
+- https://www.youtube.com/watch?v=tY8dIdToJjQ
+- https://github.com/felixrieseberg/windows-build-tools
+- https://github.com/nodejs/node-gyp
+- https://github.com/node-ffi-napi/node-ffi-napi
+- https://www.npmjs.com
