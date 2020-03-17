@@ -1,6 +1,6 @@
-# electron-quick-start
+# sat_electron
 
-**Clone and run for a quick way to see Electron in action.**
+**Clone e execute para ver a comunicação da SAT.DLL com Electron.**
 
 This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
 
