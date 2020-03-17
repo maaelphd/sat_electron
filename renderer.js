@@ -4,12 +4,13 @@
 // `nodeIntegration` is turned off. Use `preload.js` to
 // selectively enable features needed in the rendering
 // process.
-const dialog = require('electron').remote.dialog 
+const dialog = require('electron').remote.dialog  // Tem que usar remote.dialog, para pegar "render"
+                                        //do main.js não funciona require('electron') em todas js
 
 function consultaSat() {
 
     const ffi = require('ffi-napi'); // Carrega a modulo ffi
-    //const ref = require('ref'); // Carrega...
+    //const ref = require('ref'); // Carrega... Não cheguei a usar
     
     var sat = ffi.Library('SAT.dll', { // SAT.dll é a DLL que a sefaz disponibiliza, deixa na mesma pasta (diretorio) ou coloque o caminho da dll
         'ConsultarSAT': ['string', ['int']], // Comando para constultar o SAT se esta operante, string pois o que retorna é string, e o int é porque vc envia um inteiro qué é um numero                                                            // de sessao enviado pelo Aplicativo Comercial (você)
@@ -18,9 +19,9 @@ function consultaSat() {
     });    
     
     var session = Math.floor(Math.random() * 999999); // Isso aí gera o um numero inteiro aleatorio de 6 digitos
-    var ConsultarSAT = sat.ConsultarSAT(session); // faço a consulta
+    var ConsultarSAT = sat.ConsultarSAT(session); // faço a consulta passando a sessão
     //console.log(ConsultarSAT); // E aí a resposta    
-    const responseConsultaSAT = ConsultarSAT; 
+    const responseConsultaSAT = ConsultarSAT; // amarzeno numa const só pra exibir depois no dialog
     const options = {
         type: 'info',
         buttons: ['Ok!'],

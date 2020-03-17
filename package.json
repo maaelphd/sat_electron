@@ -17,9 +17,11 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^8.1.1",    
+    "electron": "^8.1.1",
+    "electron-rebuild": "^1.10.1"
   },
   "dependencies": {
+    "ffi": "^2.3.0",
     "ffi-napi": "^2.4.7"
   }
 }
