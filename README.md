@@ -16,7 +16,7 @@ You can learn more about each of these components within the [Quick Start Guide]
 
 ## Para Usar
 
-Para clonar e executar este repositório você vai precisar [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/download/) (que vem com o [npm](http://npmjs.com)) instalado em seu computador. e o EMulador do SAT https://portal.fazenda.sp.gov.br/servicos/sat/Paginas/Downloads.aspx usei o Emulador SAT off-line v2.9.4 - 10/02/2017
+Para clonar e executar este repositório você vai precisar [Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/download/) (que vem com o [npm](http://npmjs.com)) instalado em seu computador. e o Emulador do SAT [SAT_Demo](https://portal.fazenda.sp.gov.br/servicos/sat/Paginas/Downloads.aspx) usei o Emulador SAT off-line v2.9.4 - 10/02/2017
 
 **Observações**
 - `nodejs` - Precisa ser a versão 10, e 32Bits, as dlls do SAT são 32Bits, não testei usando 64Bits.
